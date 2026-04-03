@@ -23,8 +23,8 @@ const teamMembers: TeamMember[] = [
   {
     name: "Ahmad Faraz",
     role: "CTO",
-    linkedin: "[url]",
-    instagram: "[url]",
+    linkedin: "linkedin.com/in/mohammad-talha0",
+    instagram: "https://www.instagram.com/akhi_.talha/",
   },
 ];
 
@@ -112,3 +112,4 @@ export function Team() {
     </section>
   );
 }
+111111111111111111111111111111111111111111111111111
