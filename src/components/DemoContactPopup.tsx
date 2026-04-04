@@ -34,13 +34,13 @@ export function DemoContactPopup({ isOpen, onClose }: DemoContactPopupProps) {
 
         <div className="space-y-3">
           <a
-            href="tel:+92XXXXXXXXXX"
+            href="tel:+923105939786"
             className="block rounded-xl bg-white px-4 py-3 text-center font-headline text-sm font-bold text-black transition-colors hover:bg-zinc-100"
           >
              Phone Call
           </a>
           <a
-            href="https://wa.me/92XXXXXXXXXX"
+            href="wa.me/923283696394"
             target="_blank"
             rel="noreferrer"
             className="block rounded-xl border border-outline-variant/30 px-4 py-3 text-center font-headline text-sm font-bold text-white transition-all hover:bg-white hover:text-black"
@@ -48,7 +48,7 @@ export function DemoContactPopup({ isOpen, onClose }: DemoContactPopupProps) {
              WhatsApp
           </a>
           <a
-            href="mailto:your@email.com"
+            href="novasyncs.services@gmail.com"
             className="block rounded-xl border border-outline-variant/30 px-4 py-3 text-center font-headline text-sm font-bold text-white transition-all hover:bg-white hover:text-black"
           >
              Gmail
