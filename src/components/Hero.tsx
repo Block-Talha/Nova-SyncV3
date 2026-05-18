@@ -18,21 +18,22 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 rounded-full border border-outline-variant/30 bg-surface-container/50 px-4 py-2 backdrop-blur-md">
               <span className="h-2 w-2 animate-pulse rounded-full bg-primary-fixed" />
               <span className="font-label-xs uppercase tracking-[0.2em] text-on-surface">
-                Digital Growth
+                Multi-Sector Agency
               </span>
             </div>
 
             <h1 className="font-display-xl text-4xl font-extrabold leading-tight text-on-surface sm:text-5xl lg:text-6xl">
-              Electric Precision:
+              Marketing Systems
               <br />
-              <span className="text-primary-container">The Pulse Dashboard</span>
+              <span className="text-primary-container">
+                for Multi-Sector Growth
+              </span>
             </h1>
 
             <p className="max-w-xl font-body-lg text-base text-on-surface-variant sm:text-lg">
-              Dominate your market with data-driven precision. Nova Sync fuses
-              aggressive growth strategies with crystal-clear analytics,
-              transforming your operational chaotic energy into streamlined,
-              high-ROI performance.
+              Nova Sync helps clinics, gyms, restaurants, real estate teams,
+              wedding venues, salons, and service brands grow with performance
+              ads, SEO, websites, automation, and reporting tied to revenue.
             </p>
 
             <div className="flex flex-col gap-4 pt-4 sm:flex-row sm:flex-wrap">

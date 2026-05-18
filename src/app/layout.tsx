@@ -6,9 +6,9 @@ import "./globals.css";
 const siteUrl = "https://www.novasyncservices.online";
 const siteName = "Nova Sync Services";
 const defaultTitle =
-  "Nova Sync Services | Digital Marketing Agency Pakistan";
+  "Nova Sync Services | Multi-Sector Marketing Agency";
 const defaultDescription =
-  "Nova Sync Services helps gyms, clinics, wedding venues, restaurants, coaching institutes, real estate developers, salons, and service brands grow across Pakistan.";
+  "Nova Sync Services is a multi-sector marketing agency helping clinics, gyms, restaurants, real estate, salons, education, wedding venues, and service brands grow locally and worldwide with ads, SEO, websites, branding, and automation.";
 const googleAnalyticsId = "G-91GYL6RMV0";
 
 // Google Search Console setup:
@@ -33,7 +33,7 @@ const organizationSchema = {
       "@type": "ContactPoint",
       telephone: "+92-328-3696394",
       contactType: "customer service",
-      areaServed: "PK",
+      areaServed: "Worldwide",
       availableLanguage: ["en"],
     },
   ],
@@ -45,7 +45,7 @@ const websiteSchema = {
   name: siteName,
   url: siteUrl,
   description: defaultDescription,
-  inLanguage: ["en-PK", "en"],
+  inLanguage: ["en"],
 };
 
 const localBusinessSchema = {
@@ -58,16 +58,7 @@ const localBusinessSchema = {
   description: defaultDescription,
   email: "novasyncs.services@gmail.com",
   telephone: "+92-328-3696394",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "PK",
-  },
-  areaServed: [
-    { "@type": "City", name: "Karachi" },
-    { "@type": "City", name: "Lahore" },
-    { "@type": "City", name: "Islamabad" },
-    { "@type": "Country", name: "Pakistan" },
-  ],
+  areaServed: "Worldwide",
   serviceType: [
     "Digital Marketing",
     "SEO",
@@ -82,44 +73,41 @@ const localBusinessSchema = {
 
 const keywords: string[] = [
   "nova sync services",
-  "nova sync services pakistan",
-  "digital marketing agency pakistan",
-  "digital marketing services pakistan",
-  "karachi digital marketing agency",
-  "lahore digital marketing agency",
-  "islamabad digital marketing agency",
-  "growth marketing agency pakistan",
-  "lead generation agency pakistan",
-  "seo agency pakistan",
-  "website design company pakistan",
-  "branding agency pakistan",
-  "social media marketing pakistan",
-  "google ads agency pakistan",
-  "meta ads agency pakistan",
-  "whatsapp marketing pakistan",
-  "whatsapp automation pakistan",
-  "gym marketing pakistan",
-  "fitness center marketing pakistan",
-  "clinic digital marketing pakistan",
-  "doctor marketing pakistan",
-  "private clinic marketing karachi",
-  "wedding venue marketing pakistan",
-  "banquet hall marketing pakistan",
-  "restaurant marketing pakistan",
-  "restaurant digital marketing karachi",
-  "cafe marketing pakistan",
-  "coaching institute marketing pakistan",
-  "education marketing pakistan",
-  "real estate marketing pakistan",
-  "property lead generation pakistan",
-  "real estate digital marketing karachi",
-  "salon marketing pakistan",
-  "barbershop marketing pakistan",
-  "google business profile setup pakistan",
-  "landing page design pakistan",
-  "website maintenance pakistan",
-  "crm integration pakistan",
-  "email marketing pakistan",
+  "multi sector marketing agency",
+  "digital marketing agency",
+  "digital marketing services",
+  "global marketing agency",
+  "local marketing agency",
+  "international marketing agency",
+  "growth marketing agency",
+  "lead generation agency",
+  "seo agency",
+  "website design company",
+  "branding agency",
+  "social media marketing",
+  "google ads agency",
+  "meta ads agency",
+  "whatsapp marketing",
+  "whatsapp automation",
+  "gym marketing",
+  "fitness center marketing",
+  "clinic digital marketing",
+  "doctor marketing",
+  "wedding venue marketing",
+  "banquet hall marketing",
+  "restaurant marketing",
+  "cafe marketing",
+  "coaching institute marketing",
+  "education marketing",
+  "real estate marketing",
+  "property lead generation",
+  "salon marketing",
+  "barbershop marketing",
+  "google business profile setup",
+  "landing page design",
+  "website maintenance",
+  "crm integration",
+  "email marketing",
 ];
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -151,7 +139,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
     languages: {
-      "en-PK": "/",
       en: "/",
     },
   },
@@ -190,14 +177,13 @@ export const metadata: Metadata = {
     description: defaultDescription,
     url: siteUrl,
     siteName,
-    locale: "en_PK",
     type: "website",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nova Sync Services digital marketing agency for gyms, clinics, restaurants, wedding venues, real estate, and salons in Pakistan.",
+        alt: "Nova Sync Services multi-sector marketing agency for clinics, gyms, restaurants, wedding venues, education, real estate, salons, and service brands worldwide.",
       },
     ],
   },

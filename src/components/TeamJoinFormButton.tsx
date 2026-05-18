@@ -243,7 +243,7 @@ export function TeamJoinFormButton() {
                       onChange={handleChange}
                       autoComplete="address-level2"
                       className={inputClassName}
-                      placeholder="e.g. Karachi"
+                      placeholder="e.g. your city"
                     />
                   </label>
                   <label className={labelClassName}>
