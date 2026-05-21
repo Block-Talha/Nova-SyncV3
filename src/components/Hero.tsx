@@ -84,7 +84,7 @@ export function Hero() {
                 </div>
               </div>
 
-              <div className="animate-bounce-slow-reverse absolute bottom-4 right-3 flex items-center gap-3 rounded-lg border border-outline-variant/30 bg-surface-dim/80 p-4 shadow-2xl backdrop-blur-xl sm:bottom-12 sm:right-4 sm:gap-4 sm:p-6">
+              <div className="animate-bounce-slow-reverse absolute bottom-4 right-3 flex items-center gap-3 rounded-lg border border-outline-variant/30 bg-surface-dim/80 p-4 shadow-2xl backdrop-blur-xl sm:bottom-12 sm:right-4 sm:gap-4 sm:p-6 lg:bottom-3 lg:right-5 xl:bottom-4 xl:right-6">
                 <div className="rounded-full bg-primary-container/20 p-2 sm:p-3">
                   <span
                     className="material-symbols-outlined text-lg text-primary-container sm:text-2xl"
@@ -104,7 +104,7 @@ export function Hero() {
               </div>
 
               <div
-                className="absolute inset-x-8 bottom-20 top-28 flex items-end gap-3 sm:inset-x-14 sm:bottom-24 sm:top-32 sm:gap-4 lg:inset-x-20 lg:bottom-28 lg:top-36"
+                className="absolute inset-x-8 bottom-20 top-28 flex items-end gap-3 sm:inset-x-14 sm:bottom-24 sm:top-32 sm:gap-4 md:right-20 lg:bottom-28 lg:left-20 lg:right-28 lg:top-36 xl:right-32"
                 role="img"
                 aria-label="Campaign performance chart"
               >

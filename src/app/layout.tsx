@@ -9,6 +9,11 @@ const defaultTitle =
   "Nova Sync Services | Multi-Sector Marketing Agency";
 const defaultDescription =
   "Nova Sync Services is a multi-sector marketing agency helping clinics, gyms, restaurants, real estate, salons, education, wedding venues, and service brands grow locally and worldwide with ads, SEO, websites, branding, and automation.";
+const shareDescription =
+  "Performance ads, websites, SEO, and automation for multi-sector growth.";
+const shareImagePath = "/og-image-share.jpg";
+const shareImageAlt =
+  "Nova Sync homepage preview with marketing systems for multi-sector growth.";
 const googleAnalyticsId = "G-91GYL6RMV0";
 
 // Google Search Console setup:
@@ -75,20 +80,55 @@ const keywords: string[] = [
   "nova sync services",
   "multi sector marketing agency",
   "digital marketing agency",
+  "digital marketing company",
   "digital marketing services",
+  "online marketing agency",
+  "digital advertising agency",
   "global marketing agency",
   "local marketing agency",
   "international marketing agency",
+  "full service marketing agency",
   "growth marketing agency",
+  "performance marketing agency",
   "lead generation agency",
+  "lead generation services",
   "seo agency",
+  "seo services",
+  "local seo services",
+  "search engine optimization services",
+  "search marketing agency",
+  "ppc agency",
+  "ppc management agency",
+  "pay per click agency",
   "website design company",
+  "web design agency",
+  "website development company",
+  "website development services",
+  "landing page design services",
   "branding agency",
+  "branding services",
+  "creative agency",
+  "graphic design services",
   "social media marketing",
+  "social media agency",
+  "social media marketing agency",
+  "social media management services",
+  "content creation services",
   "google ads agency",
+  "google ads management",
+  "google advertising agency",
   "meta ads agency",
+  "facebook ads agency",
+  "instagram ads agency",
+  "tiktok ads agency",
+  "email marketing agency",
   "whatsapp marketing",
   "whatsapp automation",
+  "marketing automation services",
+  "whatsapp business automation",
+  "crm integration services",
+  "google business profile optimization",
+  "google business profile management",
   "gym marketing",
   "fitness center marketing",
   "clinic digital marketing",
@@ -108,6 +148,9 @@ const keywords: string[] = [
   "website maintenance",
   "crm integration",
   "email marketing",
+  "influencer marketing agency",
+  "marketing analytics services",
+  "monthly performance reporting",
 ];
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -174,24 +217,22 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: defaultTitle,
-    description: defaultDescription,
+    description: shareDescription,
     url: siteUrl,
     siteName,
     type: "website",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Nova Sync Services multi-sector marketing agency for clinics, gyms, restaurants, wedding venues, education, real estate, salons, and service brands worldwide.",
+        url: shareImagePath,
+        alt: shareImageAlt,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: defaultTitle,
-    description: defaultDescription,
-    images: ["/og-image.png"],
+    description: shareDescription,
+    images: [shareImagePath],
   },
 };
 
