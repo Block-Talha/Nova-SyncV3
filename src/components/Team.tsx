@@ -13,7 +13,7 @@ const teamMembers: TeamMember[] = [
     name: "Muhammad Talha",
     role: "Founder and CEO",
     linkedin: "https://www.linkedin.com/in/mohammad-talha0",
-    instagram: "https://www.instagram.com/akhi._.talha?igsh=MWViemUwMDJkb3NvbA%3D%3D&utm_source=qr",
+    instagram: "https://www.instagram.com/akhi_x1_/",
   },
   {
     name: "Mashhood Akhund",
@@ -38,8 +38,8 @@ const teamMembers: TeamMember[] = [
   {
     name: "Muhammad Saqib",
     role: "Regional manager",
-    linkedin: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/muhammad-saqib-310512395",
+    instagram: "https://www.instagram.com/saqib_alee17",
   },
 ];
 
